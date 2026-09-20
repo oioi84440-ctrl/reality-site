@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reality Client — Free Minecraft Launcher</title>
+  <meta name="description" content="Reality Client is a free Minecraft launcher for Fabric. Performance mods, custom capes, partner servers, and Microsoft login." />
+  <link rel="icon" href="assets/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="beta-banner">
+    🚧 Este site está em <strong>BETA</strong> — ainda tem muito a melhorar. Obrigado pela compreensão!
+  </div>
+  <header class="top">
+    <div class="top-center">
+    <a class="logo" href="index.html">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <defs>
+          <linearGradient id="boltGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#ffe566"/>
+            <stop offset="35%" stop-color="#ffc107"/>
+            <stop offset="70%" stop-color="#ff9800"/>
+            <stop offset="100%" stop-color="#ff5722"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#boltGrad)" d="M13 2L4 14h7l-1 8 10-14h-7l1-6z"/>
+      </svg>
+      <span>Reality Client</span>
+    </a>
+    <nav>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#performance">Performance</a>
+      <a href="index.html#features">Media</a>
+      <a href="index.html#tutorial">Tutorial</a>
+      <a href="index.html#faq">FAQ</a>
+    </nav>
+    </div>
+    <div class="top-right">
+      <div class="top-social">
+        <a href="https://discord.gg/JJHScuCf8y" target="_blank" rel="noopener" aria-label="Discord" title="Discord">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+        </a>
+        <a href="#" aria-label="YouTube" title="YouTube">
+          <svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.75 15.5v-7l6.5 3.5-6.5 3.5z"/></svg>
+        </a>
+        <a href="#" aria-label="TikTok" title="TikTok">
+          <svg viewBox="0 0 24 24"><path d="M19.6 7.2a6.3 6.3 0 0 1-3.6-1.1v8.1a5.5 5.5 0 1 1-4.7-5.4v2.7a2.8 2.8 0 1 0 2 2.7V2h2.7c.2 1.5 1.1 3 2.4 3.9 1 .7 2.1 1.1 3.2 1.2v2.1z"/></svg>
+        </a>
+      </div>
+      <a class="btn-download" href="download.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M5 19h14"/></svg>
+        Download for Windows
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <img class="hero-icon" src="assets/icon.png" width="120" height="120" alt="Reality Client" />
+      <h1>Reality Client</h1>
+      <p class="tagline">Free Minecraft launcher for Fabric — built for performance, capes, and servers.</p>
+      <div class="hero-btns">
+        <a class="btn btn-store" href="download.html">Baixar</a>
+        <a class="btn btn-discord" href="https://discord.gg/JJHScuCf8y" target="_blank" rel="noopener">Entrar Discord</a>
+      </div>
+      <p class="hero-meta">Version 1.2.0 · Windows 10/11 · Free</p>
+    </div>
+  </section>
+
+  <section class="block news-teaser">
+    <h2>Novidades</h2>
+    <p class="block-sub">Veja as últimas atualizações do Reality Client.</p>
+    <a class="btn btn-primary" href="novidades.html">Ver novidades</a>
+  </section>
+
+  <section id="performance" class="block performance">
+    <div class="perf-layout">
+      <div class="perf-chart">
+        <h3>Minecraft 1.21 Benchmark</h3>
+        <p class="perf-chart-sub">Average FPS comparison</p>
+        <div class="bar-row">
+          <div class="bar-label">
+            <span class="bar-name reality">Reality Client</span>
+            <span class="bar-fps">1650 FPS</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill reality" style="width:100%"></div>
+          </div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">
+            <span class="bar-name sk">SKLauncher</span>
+            <span class="bar-fps">1180 FPS</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill sk" style="width:72%"></div>
+          </div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">
+            <span class="bar-name tl">TLauncher</span>
+            <span class="bar-fps">1020 FPS</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill tl" style="width:62%"></div>
+          </div>
+        </div>
+        <div class="perf-legend">
+          <span><i class="dot reality"></i> Reality Client</span>
+          <span><i class="dot sk"></i> SKLauncher</span>
+          <span><i class="dot tl"></i> TLauncher</span>
+        </div>
+      </div>
+      <div class="perf-text">
+        <h2>DOMINATE WITH<br><span class="accent-orange">SUPERIOR<br>PERFORMANCE</span></h2>
+        <p>Experience Minecraft like never before. Reality Client's optimized rendering engine delivers up to 60% more frames per second compared to other popular launchers. Less lag, smoother gameplay, and the competitive edge you need to win.</p>
+        <p class="perf-note">* Benchmark on Intel i7-12700K, RTX 3070, 32GB RAM</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="block">
+    <h2>Everything you need</h2>
+    <p class="block-sub">Performance, customization, and the tools you use every session — built into the launcher.</p>
+    <div class="grid">
+      <article>
+        <h3>Performance focus</h3>
+        <p>Fabric instances with optional FPS mods and a performance mode that cuts heavy UI effects when you need more resources for the game.</p>
+      </article>
+      <article>
+        <h3>Custom capes</h3>
+        <p>Pick a cape in the launcher before you join a world. Free capes in the gallery, exclusive ones unlocked with codes.</p>
+      </article>
+      <article>
+        <h3>Microsoft account</h3>
+        <p>Sign in with your official Minecraft account. Multi-account support and session refresh before launch.</p>
+      </article>
+      <article>
+        <h3>Mod management</h3>
+        <p>Each game version uses its own instance folder. Add, remove, and organize Fabric mods without mixing installs.</p>
+      </article>
+      <article>
+        <h3>Partner servers</h3>
+        <p>Quick join for BRMC, KowaMC, MundoMC, plus your own saved server list.</p>
+      </article>
+      <article>
+        <h3>Reality Guard</h3>
+        <p>Scans your mods folder for known cheat clients before launch. Legitimate clients like Blaze or Feather are allowlisted.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="block block-alt">
+    <h2>About Reality Client</h2>
+    <div class="about">
+      <div>
+        <h3>What is it?</h3>
+        <p>Reality Client is a free launcher for Minecraft Java Edition focused on Fabric 1.21. It handles login, version installs, mod folders, capes, and partner servers from one app.</p>
+      </div>
+      <div>
+        <h3>Key features</h3>
+        <ul>
+          <li>Fabric 1.21.x profiles</li>
+          <li>Microsoft authentication</li>
+          <li>Cape gallery with 3D preview</li>
+          <li>One-click partner servers</li>
+          <li>Automatic Java runtime install (optional)</li>
+          <li>Built-in mod folder scan (Reality Guard)</li>
+          <li>Auto-update support via remote manifest</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="compatibility" class="block">
+    <h2>Compatibility</h2>
+    <div class="compat">
+      <div>
+        <h3>Platforms</h3>
+        <p>Windows 10 and Windows 11</p>
+      </div>
+      <div>
+        <h3>Minecraft</h3>
+        <p>Java Edition · Fabric 1.21.x (including 1.21.4 and 1.21.11)</p>
+      </div>
+      <div>
+        <h3>Java</h3>
+        <p>Java 21 recommended · can be installed from the launcher</p>
+      </div>
+      <div>
+        <h3>Account</h3>
+        <p>Microsoft account (Minecraft Java)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="block download">
+    <h2>Download Reality Client</h2>
+    <p class="block-sub">Free · Windows installer · v1.2.0</p>
+    <img class="mod-preview" id="preview-slider" src="assets/mod-menu.png" alt="Reality Client" />
+    <a class="btn btn-primary btn-lg" id="dl-bottom" href="#">Download for Windows</a>
+    <p class="dl-note" id="dl-note">Official download link is set in <code>js/main.js</code> after you upload the installer.</p>
+  </section>
+
+
+  <section id="tutorial" class="block tutorial-section">
+    <h2>Tutorial de instalação</h2>
+    <p class="block-sub">Aprenda a instalar o Reality Client passo a passo.</p>
+    <div class="tutorial-layout">
+      <div class="tutorial-video">
+        <!-- Cole o link do YouTube abaixo (substitua VIDEO_ID pelo ID do seu vídeo) -->
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            title="Tutorial de instalação — Reality Client"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+        <p class="video-hint">Substitua <code>VIDEO_ID</code> no código pelo ID do seu vídeo do YouTube.</p>
+      </div>
+      <div class="tutorial-steps">
+        <h3>Passos rápidos</h3>
+        <ol>
+          <li>Baixe o instalador em <a href="download.html">Download</a>.</li>
+          <li>Execute o arquivo e siga as instruções na tela.</li>
+          <li>Abra o Reality Client e faça login com a conta Microsoft.</li>
+          <li>Escolha a versão Fabric e clique em Jogar.</li>
+        </ol>
+        <a class="btn btn-primary" href="download.html">Ir para o download</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="block">
+    <h2>FAQ</h2>
+    <div class="faq">
+      <details>
+        <summary>Is Reality Client free?</summary>
+        <p>Yes. The launcher is free to download and use.</p>
+      </details>
+      <details>
+        <summary>Do I need to install Java myself?</summary>
+        <p>Not always. The launcher can download and configure a compatible runtime. You can also point it to a Java install you already have.</p>
+      </details>
+      <details>
+        <summary>Which Minecraft versions are supported?</summary>
+        <p>Fabric builds on the 1.21 line (for example 1.21.4 and 1.21.11), depending on the current release.</p>
+      </details>
+      <details>
+        <summary>Can I add my own mods?</summary>
+        <p>Yes. Open the instance mods folder from settings or the file manager and drop Fabric mods there.</p>
+      </details>
+      <details>
+        <summary>What is Reality Guard?</summary>
+        <p>A client-side scan of the mods folder for known cheat client jars. It is not a full anti-cheat and does not replace server plugins.</p>
+      </details>
+      <details>
+        <summary>Where do I get support?</summary>
+        <p>Join the Discord: <a href="https://discord.gg/JJHScuCf8y" target="_blank" rel="noopener">discord.gg/JJHScuCf8y</a></p>
+      </details>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="footer-logo" href="index.html">
+          <img src="assets/icon.png" width="36" height="36" alt="" />
+          <span>Reality<br>Client</span>
+        </a>
+        <p class="footer-desc">O cliente definitivo de desempenho de Minecraft. Mods embutidos, FPS aumentados e recursos de qualidade de vida — tudo em uma única instalação.</p>
+        <div class="footer-socials">
+          <a href="https://discord.gg/JJHScuCf8y" target="_blank" rel="noopener" aria-label="Discord" title="Discord">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram" title="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+          <a href="#" aria-label="YouTube" title="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok" title="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Cliente</h4>
+          <a href="novidades.html">Novidades</a>
+          <a href="#features">Características</a>
+          <a href="#">Desempenho</a>
+          <a href="download.html">Download</a>
+          <a href="#tutorial">Tutorial</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Comunidade</h4>
+          <a href="https://discord.gg/JJHScuCf8y" target="_blank" rel="noopener">Discord</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">TikTok</a>
+        </div>
+        <div class="footer-col">
+          <h4>Jurídico</h4>
+          <a href="#">Termos de Serviço</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Contato</a>
+        </div>
+      </div>
+      <div class="footer-mascot">
+        <img src="assets/skin-new.png" alt="" width="120" height="140" />
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="y"></span> Reality Client. Todos os direitos reservados.</span>
+      <span>Não é afiliado à Mojang ou Microsoft.</span>
+    </div>
+  </footer>
+
+  <img class="skin-corner skin-right" src="assets/skin.png" alt="Skin" width="140" height="280" />
+  <img class="skin-corner skin-left" src="assets/skin-left.png" alt="Skin" width="140" height="280" />
+
+  <script src="js/main.js"></script>
+</body>
+</html>
