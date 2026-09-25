@@ -3,7 +3,7 @@
 
   // Set this to your installer URL when ready:
   // Example: 'https://github.com/USER/REPO/releases/download/v1.2.0/Reality-Client-Setup-1.2.0.exe'
-  var DOWNLOAD_URL = 'https://github.com/oioi84440-ctrl/Reality-backend-launcherv2/releases/download/1.6.50/Reality.Client.Launcher.Setup.1.6.50.exe';
+  var DOWNLOAD_URL = 'https://www.mediafire.com/file/lh8g94y1ilwh3r2/Reality.Client.Launcher.Setup.1.6.50.exe/file';
 
   function bind(id) {
     var el = document.getElementById(id);
