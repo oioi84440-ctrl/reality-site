@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cosméticos — Reality Client</title>
+  <meta name="description" content="Loja de cosméticos do Reality Client: capas, chapéus, pets, emotes e muito mais." />
+  <link rel="icon" href="assets/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="btn-cosmeticos" href="cosmeticos.html">Cosméticos</a>
+    <div class="top-center">
+    <a class="logo" href="index.html">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <defs>
+          <linearGradient id="boltGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#ffe566"/>
+            <stop offset="35%" stop-color="#ffc107"/>
+            <stop offset="70%" stop-color="#ff9800"/>
+            <stop offset="100%" stop-color="#ff5722"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#boltGrad)" d="M13 2L4 14h7l-1 8 10-14h-7l1-6z"/>
+      </svg>
+      
+    </a>
+    <nav>
+      <a href="index.html#features">Features</a>
+      <a href="cosmeticos.html" class="nav-active">Cosméticos</a>
+      <a href="index.html#tutorial">Tutorial</a>
+      <a href="index.html#faq">FAQ</a>
+    </nav>
+    </div>
+    <div class="top-right">
+      <div class="top-social">
+        <a href="https://discord.gg/JJHScuCf8y" target="_blank" rel="noopener" aria-label="Discord" title="Discord">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+        </a>
+      </div>
+      <a class="btn-download" href="download.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 19h14"/></svg>
+        Download for Windows
+      </a>
+    </div>
+  </header>
+
+  <main class="shop shop-locked">
+    <div class="shop-lock-overlay">
+      <div class="shop-lock-content">
+        <div class="shop-lock-icon">
+          <svg viewBox="0 0 24 24" width="96" height="96" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          </svg>
+        </div>
+        <h2>Loja bloqueada</h2>
+        <p>Os cosméticos ainda não estão disponíveis.<br>Em breve você poderá comprar capas, pets e muito mais.</p>
+      </div>
+    </div>
+
+    <div class="shop-layout">
+      <!-- Sidebar categories -->
+      <aside class="shop-sidebar">
+        <div class="shop-brand">
+          <h1>LOJA <span>REALITY</span></h1>
+          <p>Cosméticos, emotes e muito mais para o seu launcher.</p>
+        </div>
+        <nav class="shop-cats">
+          <a href="#capas" class="shop-cat active">
+            <span class="cat-icon" style="background:linear-gradient(135deg,#6b5cff,#9b7bff)">🧥</span>
+            <span>CAPAS</span>
+          </a>
+          <a href="#chapeus" class="shop-cat">
+            <span class="cat-icon" style="background:linear-gradient(135deg,#ff8c42,#ffb347)">🎩</span>
+            <span>CHAPÉUS</span>
+          </a>
+          <a href="#bandanas" class="shop-cat">
+            <span class="cat-icon" style="background:linear-gradient(135deg,#3d9eff,#5bc0ff)">🎀</span>
+            <span>BANDANAS</span>
+          </a>
+          <a href="#pets" class="shop-cat">
+            <span class="cat-icon" style="background:linear-gradient(135deg,#2ecc71,#7bed9f)">🐾</span>
+            <span>PETS</span>
+          </a>
+          <a href="#emotes" class="shop-cat">
+            <span class="cat-icon" style="background:linear-gradient(135deg,#e84393,#fd79a8)">💃</span>
+            <span>EMOTES</span>
+          </a>
+        </nav>
+      </aside>
+
+      <!-- Main content -->
+      <div class="shop-main">
+        <!-- Top bar -->
+        <div class="shop-topbar">
+          <div class="shop-search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <input type="text" placeholder="Buscar cosméticos, emotes..." />
+          </div>
+          <div class="shop-top-actions">
+            <button class="shop-icon-btn" title="Moedas" aria-label="Moedas">💎</button>
+            <button class="shop-icon-btn" title="Carrinho" aria-label="Carrinho">🛒</button>
+          </div>
+        </div>
+
+        <!-- Apoie criadores -->
+        <div class="shop-partners">
+          <div class="partners-header">
+            <span>💙 APOIE CRIADORES</span>
+            <p>Cosméticos oficiais de criadores e parceiros.</p>
+          </div>
+          <div class="partners-avatars">
+            <span class="av" style="background:#6b5cff"></span>
+            <span class="av" style="background:#ff8c42"></span>
+            <span class="av" style="background:#2ecc71"></span>
+            <span class="av" style="background:#e84393"></span>
+            <span class="av" style="background:#3d9eff"></span>
+            <span class="av" style="background:#f1c40f"></span>
+          </div>
+          <a href="#" class="btn-partners">VER PARCEIROS</a>
+        </div>
+
+        <!-- Mais vendidos (sem nomes / preços) -->
+        <section class="shop-section" id="capas">
+          <div class="section-head">
+            <h3>🏆 MAIS VENDIDOS <span class="badge-top">TOP 3</span></h3>
+          </div>
+          <div class="featured-row">
+            <article class="featured-card">
+              <div class="featured-img" style="background:linear-gradient(135deg,#009c3b 0%,#009c3b 33%,#ffdf00 33%,#ffdf00 66%,#002776 66%,#002776 100%)">
+                <span class="rank">#1</span>
+              </div>
+              <div class="featured-info">
+                <span class="tag-hot">O MAIS PROCURADO</span>
+                <div class="featured-buy">
+                  <button class="btn-buy">COMPRAR</button>
+                </div>
+              </div>
+            </article>
+            <div class="side-products">
+              <article class="mini-card">
+                <div class="mini-img" style="background:linear-gradient(135deg,#1a1a2e,#e74c3c)">❤️</div>
+                <button class="btn-add">ADD</button>
+              </article>
+              <article class="mini-card">
+                <div class="mini-img" style="background:linear-gradient(135deg,#0f0f1a,#c0392b)">👁️</div>
+                <button class="btn-add">ADD</button>
+              </article>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 Reality Client. Não afiliado à Mojang ou Microsoft.</p>
+      <div class="footer-links">
+        <a href="download.html">Download</a>
+        <a href="novidades.html">Novidades</a>
+        <a href="cosmeticos.html">Cosméticos</a>
+        <a href="termos.html">Termos</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

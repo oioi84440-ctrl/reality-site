@@ -3,7 +3,7 @@
 
   // Set this to your installer URL when ready:
   // Example: 'https://github.com/USER/REPO/releases/download/v1.2.0/Reality-Client-Setup-1.2.0.exe'
-  var DOWNLOAD_URL = '';
+  var DOWNLOAD_URL = 'https://github.com/oioi84440-ctrl/Reality-backend-launcherv2/releases/download/1.6.47/Reality.Client.Launcher.Setup.1.6.47.exe';
 
   function bind(id) {
     var el = document.getElementById(id);
@@ -15,7 +15,7 @@
     } else {
       el.addEventListener('click', function (e) {
         e.preventDefault();
-        alert('Download link not configured yet.\n\nSet DOWNLOAD_URL in js/main.js after you upload the Windows installer.');
+        alert('Download ainda não disponível. Tente novamente em breve.');
       });
     }
   }
@@ -28,7 +28,7 @@
 
   if (DOWNLOAD_URL) {
     var note = document.getElementById('dl-note');
-    if (note) note.textContent = 'Windows installer · Reality Client 1.2.0';
+    if (note) note.textContent = 'Windows installer · Reality Client 1.6.47';
   }
 
   // Preview slider: troca a cada 5s
